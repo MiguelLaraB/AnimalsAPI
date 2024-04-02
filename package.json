@@ -1,0 +1,27 @@
+{
+  "name": "animalsapi",
+  "version": "1.0.0",
+  "description": "random images of animals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelLaraB/AnimalsAPI.git"
+  },
+  "author": "Miguel Lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelLaraB/AnimalsAPI/issues"
+  },
+  "homepage": "https://github.com/MiguelLaraB/AnimalsAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.12.3"
+  }
+}

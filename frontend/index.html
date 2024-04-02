@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>
+Consumo de REST-API de Animales
+</p>
+
+<div>
+	<label>Name </label>
+	<input type="text" id="name">
+</div>
+
+<div>
+	<label>Animal </label>
+	<input type="text" id="animal">
+</div>
+
+<div>
+	<label>Date </label>
+	<input type="text" id="date">
+</div>
+
+<div>
+	<label>comments </label>
+	<input type="text" id="comments">
+</div>
+
+<div>
+	<label>url </label>
+	<input type="text" id="url">
+</div>
+
+<button onclick="postAnimal()">POST Animal </button>
+
+<button onclick="getAnimal()"> GET Animal </button>
+
+<div id="resultado"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="callrestapi.js"></script>
+
+</body>
+</html>
